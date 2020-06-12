@@ -1,0 +1,11 @@
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.exe
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.deps.json
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.runtimeconfig.json
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.runtimeconfig.dev.json
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.dll
+D:\_MPS\C_sharp\C_sharp_practice\bin\Debug\netcoreapp3.1\C_sharp_practice.pdb
+D:\_MPS\C_sharp\C_sharp_practice\obj\Debug\netcoreapp3.1\C_sharp_practice.csprojAssemblyReference.cache
+D:\_MPS\C_sharp\C_sharp_practice\obj\Debug\netcoreapp3.1\C_sharp_practice.AssemblyInfoInputs.cache
+D:\_MPS\C_sharp\C_sharp_practice\obj\Debug\netcoreapp3.1\C_sharp_practice.AssemblyInfo.cs
+D:\_MPS\C_sharp\C_sharp_practice\obj\Debug\netcoreapp3.1\C_sharp_practice.dll
+D:\_MPS\C_sharp\C_sharp_practice\obj\Debug\netcoreapp3.1\C_sharp_practice.pdb
