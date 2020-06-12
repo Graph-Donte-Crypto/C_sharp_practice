@@ -1,33 +1,6 @@
 ﻿using System;
 
 namespace C_sharp_practice {
-
-
-	class Mark {
-		string subject;
-		public int value;
-		public Mark(string subject, int value) {
-			this.subject = subject;
-			this.value	 = value;
-		}
-	}
-
-	class Student {
-		string name;
-		string group;
-		public Mark[] marks;
-		public double GetAvgMark() {
-			int sum = 0;
-			foreach (Mark mark in marks) {
-				sum += mark.value;
-			}
-			return ((double)sum) / marks.Length;
-		}
-		public void ResetAllMarks() {
-			foreach (Mark mark in marks)
-				mark.value = 0;
-		}
-	}
 	class Program {
 
 		static bool test01() {
