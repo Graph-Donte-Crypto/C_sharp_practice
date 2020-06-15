@@ -16,8 +16,14 @@ namespace C_sharp_practice {
 
 			student.marks = array;
 
-			if ((student.GetAvgMark() - 7.2) >= 0.001)
+			
+			if (!student.GetAvgMark().Equals(7.2)) 
 				return false;
+
+			/*
+			if (Math.Abs(student.GetAvgMark() - 7.2) >= 0.001)
+				return false;
+			*/
 
 			student.ResetAllMarks();
 			foreach (Mark mark in student.marks)
