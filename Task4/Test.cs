@@ -63,9 +63,9 @@ namespace C_sharp_practice {
 			shopBig.addOrder(order7);
 			shopBig.addOrder(order8);
 
-			shopSmall.fulfillOrders();
+			shopSmall.fulfilOrders();
 			Console.WriteLine();
-			shopBig.fulfillOrders();
+			shopBig.fulfilOrders();
 		}
 	}
 }

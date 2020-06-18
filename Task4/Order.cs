@@ -26,7 +26,7 @@ namespace C_sharp_practice.Task4 {
 		public decimal getFullPrice() {
 			decimal full_price = 0;
 			foreach (var tuple in orderList) 
-				full_price += tuple.Item1.priceByOne * tuple.Item2;
+				full_price += tuple.Item1.pricePerItem * tuple.Item2;
 			return full_price;
 		}
 	}

@@ -5,10 +5,10 @@ using System.Text;
 namespace C_sharp_practice.Task4 {
 	class Product {
 		public string name;
-		public decimal priceByOne;
+		public decimal pricePerItem;
 		public Product(string name, decimal priceByOne) {
 			this.name = name;
-			this.priceByOne = priceByOne;
+			this.pricePerItem = priceByOne;
 		}
 	}
 }
