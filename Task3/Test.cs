@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using C_sharp_practice.Task3;
 
 namespace C_sharp_practice {
-	class Test6 {
+	class Test3 {
 
 		public static void test() {
 			List<Employee> employees = new List<Employee>();

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using C_sharp_practice.Task1_2;
 
 namespace C_sharp_practice {
 	class Test1_2 {
