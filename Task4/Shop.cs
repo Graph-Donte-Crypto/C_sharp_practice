@@ -36,6 +36,7 @@ namespace C_sharp_practice.Task4 {
 					Console.WriteLine("  Because full price {0} more than customer money {1}", order.getFullPrice(), order.customer.money);
 				}
 				else {
+					//Check availability of all goods in stock
 					bool notEnoughProducts = false;
 					foreach (var productOrder in order.orderList) {
 						int goodsQuantity = 0;
@@ -54,8 +55,10 @@ namespace C_sharp_practice.Task4 {
 							Console.WriteLine("    Requires {0} units of '{1}', but in stock only {2}", productOrder.Item2, productOrder.Item1.name, goodsQuantity);
 						}
 					}
+					//If avalible then transfer money and remove goods from stock
 					if (!notEnoughProducts) {
 						revenue += order.getFullPrice();
+						order.customer.money -= order.getFullPrice();
 						foreach (var productOrder in order.orderList) {
 							int i = 0;
 							for (; i < allGoods.Count; i++) { 
