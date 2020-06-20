@@ -6,8 +6,8 @@ namespace C_sharp_practice {
 		static void Main(string[] args) {
 			//Test1_2.test();
 			//Test3.test();
-
-			Test4.test();
+			//Test4.test();
+			Test5.test();
 		}
 	}
 }
