@@ -14,8 +14,6 @@ namespace C_sharp_practice.Task6 {
 			this.age = age;
 		}
 
-		static protected double maximum_fault = 0.2;
-
 		public string getNameAndAge() {return name + "(" + age.ToString() + ")";}
 		public virtual string getInfo() {
 			return "Human: " + getNameAndAge();
