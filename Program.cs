@@ -7,7 +7,8 @@ namespace C_sharp_practice {
 			//Test1_2.test();
 			//Test3.test();
 			//Test4.test();
-			Test5.test();
+			//Test5.test();
+			Test6.test();
 		}
 	}
 }
