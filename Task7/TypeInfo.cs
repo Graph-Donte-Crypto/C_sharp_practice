@@ -27,7 +27,6 @@ namespace C_sharp_practice.Task7 {
 			foreach (var iface in type.GetInterfaces()) {
 				Console.WriteLine("    " + iface.ToString());
 			}
-
 		}
 	}
 }
