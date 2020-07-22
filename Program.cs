@@ -11,7 +11,8 @@ namespace C_sharp_practice {
 			//Test6.test();
 			//Test7.test();
 			//Test8.test();
-			Test9.test();
+			//Test9.test();
+			Test10.test();
 		}
 	}
 }
